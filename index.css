@@ -46,3 +46,12 @@
     color: white;
 }
 
+
+
+/* Second half  */
+
+#upper-second-container {
+    width: 1500px;
+    height: 500px;
+    border: 1px solid black;
+}
