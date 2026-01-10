@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(blue,rgb(227, 148, 255));
+    background-image: linear-gradient(blue, rgb(227, 148, 255));
 }
 
 #first-container {
@@ -30,6 +30,7 @@
     max-width: 200px;
     max-height: 200px;
     /* background-color: blue; */
+    border-radius: 10px;
 }
 
 #upper-p {
@@ -39,7 +40,7 @@
     color: white;
 }
 
-.main-heading{
+.main-heading {
     font-size: 5rem;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -51,7 +52,56 @@
 /* Second half  */
 
 #upper-second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 1500px;
     height: 500px;
     border: 1px solid black;
+
+}
+
+
+#second-p {
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 0px px black;
+}
+
+#input-div {
+    display: flex;
+    border: 3px solid black;
+    width: 315px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#input-field {
+    border: 1px solid black;
+    height: 46px;
+    width: 266px;
+    font-style: oblique;
+    font-weight: 700;
+    font-size: large;
+}
+
+#plus-btn {
+    font-size: 2rem;
+    font-style: oblique;
+    background-color: white;
+    border: 1px solid black;
+    height: 50px;
+    width: 45px;
+}
+
+#tickers-p {
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+#generate-btn {
+    
 }
