@@ -11,7 +11,7 @@ const  tickerArr = []
 input_btn.addEventListener("click",()=> {
     const text = input_El.value
     tickerArr.push(text)
-
+    input_El.value = ""
     display_place.textContent = tickerArr 
 })
 
