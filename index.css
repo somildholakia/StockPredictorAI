@@ -66,6 +66,7 @@
     text-align: center;
     font-size: 25px;
     text-shadow: 1px 0px px black;
+    margin-bottom: 40px;
 }
 
 #input-div {
@@ -102,6 +103,25 @@
     font-weight: 500;
 }
 
-#generate-btn {
-    
+
+#generate-div {
+    width: 214px;
+    height: 55px;
+    margin-top: 40px;
+    border: 1px solid black;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#generate-P {
+   
+    font-size: 25px;
+}
+
+#p-ull {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 700;
 }
