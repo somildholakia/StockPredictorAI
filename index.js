@@ -1,4 +1,4 @@
-// import { dates } from "./dates"
+
 
 
 const input_El = document.getElementById("input-field")
@@ -18,5 +18,4 @@ input_btn.addEventListener("click",()=> {
 generate_btn.addEventListener("click",()=> {
     document.getElementById("upper-second-container").style.display = 'none'
 })
-
 
